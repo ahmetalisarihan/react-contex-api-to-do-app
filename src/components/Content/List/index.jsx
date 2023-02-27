@@ -4,7 +4,6 @@ import Item from "./Item";
 
 function List() {
   const { todos } = useTodo();
-  console.log(todos);
   return (
     <ul className="todo-list">
       {todos.map((todo) => (
